@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="author" content="Karan Wagh">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+
+    <!-- WEBSITE TITLE & DESCRIPTION -->
+    <title>DOTA DREAMHACK SUMMER  </title>
+    <meta name="description" content="DOTA DREAMHACK is a PROFESSIONAL DOTA Tournament for the players worldwide.">
+    <meta name="keywords" content="game, dota gaming competition, dota event, dota tournament">
+
+    
+
+  
+    <link rel="icon"  href="images/favicon/favicon.ico">
+    
+
+    <!-- STYLES -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Animations -->
+    <link href="css/animations.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <!-- Video Lightbox -->
+    <link href="css/modal-video.min.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+  
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader-wrapper">
+    	
+        <h1 class="loader-logo"><span class="colored">DOTA</span>DREAMHACK SUMMER</h1>
+        <div id="progress"></div>
+        <h3 class="loader-text">LOADING</h3>
+    </div>
+    
+    <!-- //// HEADER //// -->
+    <header id="main-header">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <div class="container">
+                <!-- Site Logo -->
+                <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="images/dota.png" alt="site logo">DOTA</a>
+                <!-- Dropdown Button -->
+                <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#matchinfo">Match Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#registration">Registration</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header><!-- Header End -->
+    <script type="text/javascript">
+	function sendDetails() {
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if(this.readyState == 4 && this.status == 200) {
+      	//document.getElementById('registerform').reset();
+        document.getElementById('msgSubmit').innerHTML = this.responseText;
+        if(this.responseText.indexOf("Form submitted") >=0 ) {
+        	document.getElementById('contactForm').reset();
+        	//window.location.href="packages.php";
+        }
+      }
+    };
+    xhttp.open("POST","contact.php", true);
+    //xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    var boundary = "A03x--";
+    //xhttp.setRequestHeader("Content-type", "multipart/form-data;boundary="+boundary);
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var dotaname = document.getElementById('dotaname').value;
+    var instaname = document.getElementById('instaname').value;
+    
+    if(!name || !email || !phone || !pubgname || !instaname) {
+    	alert("All fields are required");
+    	return;
+    }
+    var formData = new FormData();
+    formData.append("name",name);
+    formData.append("email",email);
+    formData.append("phone",phone);
+    formData.append("instaname",instaname);
+    formData.append("pubgname",pubgname);
+    
+   // xhttp.send(formData);
+   alert(" Entries are full!");
+  }
+</script>
+    <!-- /// HERO SECTION /// -->
+    <div id="hero-section" class="small-margin">
+        <div id="particles-web"></div>
+        <div class="row hero-unit">
+            <div class="container">
+                <div class="hero-caption"><!-- Main Tagline -->
+
+                    <h1>DOTA <span class="colored">DREAMHACK SUMMER</span></h1>
+                    <h2><span class="colored">FREE </span>5v5 Tournament</h2>
+                    <h3><span class="colored">HOLD DIFFERENT, PLAY DIFFERENT </span></h3>
+                    <a href="#registration" class="button button-store">Register</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- Hero Section End -->
+    
+    <!-- /// Main Container /// -->
+    <div class="container">
+        <!-- /// ABOUT SECTION /// -->
+        <div id="matchinfo" class="large-margin">
+            <a href="about.html"></a><!-- Nav Anchor -->
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">MATCH <span class="colored">INFO</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="small-margin">
+                    	<h2>NO ENTRY FEES</h2>
+                    	<h3><b>Game Mode: 	</b>5v5 Captains Mode</h3>
+                    	<h3><b>Prizes:</b></h3>
+                    	<h3>1st - $2000/-</h3>
+                    	<h3>2nd - $1000/-</h3>
+                    </p>
+                    <h2>TOURNAMENT RULES:</h2>
+                    <ol>
+                    	<li>Follow <a target="_blank" href="#"><span class="colored">@dota</span></a> on Instagram as all important updates will be posted there.</li>
+                    	<li>Participants compete in a Single Elimination bracket - a single loss results in elimination from the tournament..</li>
+                    	<li>Teams are allowed to compete in a tournament with the same roster they have at the time of registering for the tournament.</li>
+                    	<li>All players are monitored and hackers will be banned.</li>
+                    	<li>Prize money will be credited in 24 hours after the match.</li>
+                    	<li>Tournament draw is done randomly by the system.</li>
+                    	<li>All matches are played on a single map (Best of 1).</li>
+                    	
+                    </ol>
+                  
+                </div>
+                <div class="col-md-6">
+                    <img id="support-image" src="images/Dota-2-poster.jpg" class="img-fluid" alt="digital collage">
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <h2>LOBBY HOSTING:</h2>
+                    <ol>
+                    	<li>Every game gets hosted by a referee. The teams receive the password from him about 15 minutes before the match time in Skype. At least one member of each team has to be present iat that time to communicate with the opponents and administration.</li>
+                    	<li>Participants are not allowed to pass the password on to anyone but the other members of his team and the stand-in(s) for the match.</li>
+                    	
+                    </ol>
+                   <br/><br/><br/>
+       
+        
+       
+        <!-- /// CONTACT SECTION /// -->
+        <div id="registration" class="large-margin">
+            <a href="contact.html"></a><!-- Nav Anchor -->
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">REGISTR<span class="colored">ATION</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="">
+                <div class="row small-margin">
+                    <div class="col-md-11">
+                        <p>Fill in the form below to participate. Please note that the tournament is only for <span class="colored"><b>DOTA</b></span> players.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="short-hr-left">Registration Form</h2>
+                        <form id="contactForm" data-toggle="validator">
+                            <div class="form-group">
+                                <!-- Name Field -->
+                                <input type="text" id="name" placeholder="Name*" required size="35" data-error="Name is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email Field -->
+                                <input type="email" id="email" placeholder="Email*" required size="35" data-error="Email is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                             <div class="form-group">
+                                <!-- Email Field -->
+                                <input type="text" id="phone" placeholder="Phone*" required size="35" data-error="Phone is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                             <div class="form-group">
+                                <!-- Email Field -->
+                                <input type="text" id="dotaname" placeholder="DOTA Username*" required size="35" data-error="Field is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                             <div class="form-group">
+                                <!-- Email Field -->
+                                <input type="text" id="instaname" placeholder="Instagram Username*" required size="35" data-error="Field is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                
+                                <p class="subtle">* required field</p>
+                                <div class="help-block with-errors"></div>
+                                <!-- Submit Button -->
+                                <button type="button" onclick="sendDetails()" class="button">Register</button>
+                                <!-- Success Message -->
+                                <div id="msgSubmit" class="text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="short-hr-left">For Queries</h2>
+                        <div id="contact-info">
+                            <center><ul>
+                                <li><p><i class="fa fa-phone"></i> Phone: <span class="colored"><a href="#">+91 1111222233</a></span></p></li>
+                                <li><p><i class="fa fa-envelope"></i> Email: <span class="colored"><a href="mailto:karanwagh17@gmail.com">karanwagh17@gmail.com</a></span></p></li>
+                                
+                                <a target="_blank" href="#" class="button btn-lg"><i class="fa fa-instagram">&nbsp;</i>Follow on Instagram</a>
+                                <a target="_blank" href="#" class="button btn-lg"><i class="fa fa-facebook">&nbsp;</i>Like on Facebook</a>
+                            </ul>
+                        </center>
+                            <center>
+                            <h2>Event Sponsored by:</h2>
+                            <a target="_blank" href="#"> <h2>Karan Wagh</h2></a>
+                        </center>
+                        </div>
+                        <!-- Google Map -->
+                        <div id="map-canvas"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Main Container End -->
+    <!-- /// FOOTER /// -->
+    <footer id="main-footer">
+        <div id="footer"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p id="copyright">Copyright &copy; DOTA Premier League 2020.
+                            </p><!-- Copyright Text -->
+                        <ul class="social-links"> <!-- Social Media Icons -->
+                            <li><a target="_blank" href="#"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
+                            
+                            <li><a target="_blank" href="#"><i class="fa fa-instagram fa-lg icon-social"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- Container End -->
+        </div>
+    </footer><!-- Footer End -->
+    
+    <!-- //// SCRIPTS //// -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery-modal-video.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/strider.js"></script>
+ <iframe style="display: none;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/6p_a1SYs6Gs?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>
