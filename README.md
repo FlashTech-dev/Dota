@@ -2,7 +2,7 @@
   <!--okay-->
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**WELCOME TO DOTA DREAMHACK SUMMER**
                                
-**Dota Dreamhack Summer** is a website made for DOTA Gaming Event
+**Dota Dreamhack Summer** is a website made for DOTA Gaming Event. Players can submit their entries for the event through the form .The environment of the website is designed in such a way that it attracts gamers and gives tempting vibes to explore more about the game
 ## Project 
  <br/>
    https://flashtech-dev.github.io/Dota/ 
