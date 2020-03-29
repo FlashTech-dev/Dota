@@ -1,5 +1,5 @@
                                             
-Welcome<br/>
+**Welcome**<br/>
  
                                     **DOTA DREAMHACK SUMMER**
 
