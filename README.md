@@ -1,7 +1,5 @@
-                                            
-**Welcome**<br/>
- 
-                                    **DOTA DREAMHACK SUMMER**
+  <!-- hey-->
+                                **WELCOME TO DOTA DREAMHACK SUMMER**
 
 ## Project 
  <br/>
