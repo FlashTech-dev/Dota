@@ -1,6 +1,8 @@
   <!-- hey-->
-                                **WELCOME TO DOTA DREAMHACK SUMMER**
-
+  <!--okay-->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**WELCOME TO DOTA DREAMHACK SUMMER**
+                               
+**Dota Dreamhack Summer** is a website made for DOTA Gaming Event
 ## Project 
  <br/>
    https://flashtech-dev.github.io/Dota/ 
@@ -19,7 +21,7 @@
  
 ## Author
  Made with ❤️ by Karan Wagh  
- Twiiter-https://twitter.com/karannwagh <br/>
+ Twitter-https://twitter.com/karannwagh <br/>
  Github-https://github.com/FlashTech-dev <br/>
  LinkedIn-https://www.linkedin.com/in/karan-wagh-130263181/ <br/>
 
