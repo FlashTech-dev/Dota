@@ -1,8 +1,9 @@
-                                   
-                                    DOTA DREAMHACK SUMMER
- **website for DOTA players to register at professional DOTA gaming tournament**
 
-## Project
+                                    DOTA DREAMHACK SUMMER
+                                    
+ **Website for DOTA players to register at professional DOTA gaming tournament**
+
+## Project 
  <br/>
    https://flashtech-dev.github.io/Dota/ 
  <br/>
@@ -10,11 +11,11 @@
  
 ## Want to do something more creative with the code?  
 <br/>
--> Just clone /download the repository and open Index.html in your IDE 
+:point_right: Just clone /download the repository and open Index.html in your IDE 
 <br/>
--> Change the style of the website from **CSS** folder 
+:point_right: Change the style of the website from CSS folder 
 <br/>
--> Love the font of the website? Go in the **Font** folder for more details
+:point_right: Love the font of the website? Go in the Font folder for more details
 <br/>
 <br/>
  
