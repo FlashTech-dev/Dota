@@ -18,12 +18,17 @@
 :point_right: Love the font of the website? Go in the Font folder for more details
 <br/>
 <br/>
+
  
 ## Author
  Made with ❤️ by Karan Wagh  
  Twitter-https://twitter.com/karannwagh <br/>
  Github-https://github.com/FlashTech-dev <br/>
  LinkedIn-https://www.linkedin.com/in/karan-wagh-130263181/ <br/>
+
+<br/>
+
+Look for the music used in the website:wink:
 
 
 
