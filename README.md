@@ -25,6 +25,7 @@
  Twitter-https://twitter.com/karannwagh <br/>
  Github-https://github.com/FlashTech-dev <br/>
  LinkedIn-https://www.linkedin.com/in/karan-wagh-130263181/ <br/>
+ E-mail- Karanwagh17@gmail.com <br/>
 
 <br/>
 
