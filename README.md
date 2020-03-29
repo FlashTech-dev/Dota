@@ -1,7 +1,7 @@
-
-                                    DOTA DREAMHACK SUMMER
-                                    
- **Website for DOTA players to register at professional DOTA gaming tournament**
+                                            
+Welcome<br/>
+ 
+                                    **DOTA DREAMHACK SUMMER**
 
 ## Project 
  <br/>
@@ -11,7 +11,7 @@
  
 ## Want to do something more creative with the code?  
 <br/>
-:point_right: Just clone /download the repository and open Index.html in your IDE 
+:point_right: Clone /download the repository and open Index.html in your IDE 
 <br/>
 :point_right: Change the style of the website from CSS folder 
 <br/>
