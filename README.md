@@ -22,8 +22,8 @@
  
 ## Author
  Made with ❤️ by Karan Wagh  
- Twitter-[KARAN](https://twitter.com/karannwagh) <br/>
- LinkedIn-[KARAN](https://www.linkedin.com/in/karan-wagh-130263181/) <br/>
+ Twitter-[Karan](https://twitter.com/karannwagh) <br/>
+ LinkedIn-[Karan](https://www.linkedin.com/in/karan-wagh-130263181/) <br/>
  E-mail- Karanwagh17@gmail.com <br/>
 
 
