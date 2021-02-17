@@ -19,9 +19,7 @@
 <br/>
 <br/>
 
- 
-## Author
- Made with ❤️ by Karan Wagh  
+
  Twitter-[Karan](https://twitter.com/karannwagh) <br/>
  LinkedIn-[Karan](https://www.linkedin.com/in/karan-wagh-130263181/) <br/>
  E-mail- Karanwagh17@gmail.com <br/>
